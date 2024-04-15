@@ -135,6 +135,7 @@
       ++ (with pkgs; [
         nodejs
         nodePackages.npm
+        nodePackages.webpack
       ]);
 
     kernelDerivations = kernels;
